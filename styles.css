@@ -31,16 +31,10 @@ a {
     clear: left;
 }
 
-header {
-    border: 1px solid blue;
-    /* width: 100vw; */
-}
-
 .container {
     max-width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
-    width: 100vw;
 }
 
 .top-wrapper {
@@ -49,12 +43,11 @@ header {
     background-size: cover;
     color: white;
     text-align: center;
-    border: blue 1px solid;
 }
 
 .top-wrapper h1 {
     opacity: 0.7;
-    font-size: 45px;
+    font-size: 50px;
     letter-spacing: 5px;
     margin-bottom: 10px;
 }
@@ -132,7 +125,6 @@ header {
     padding-right: 25px;
     background-color: #f7f7f7;
     text-align: center;
-    border: 1px solid blue;
 }
 
 .heading {
@@ -154,24 +146,8 @@ header {
 }
 
 .project {
-    /* display: flex;
-    flex-direction: column; */
-    border: 1px solid blue;
-    width: 45%;
+    width: 50%;
 }
-
-
-/* .project-icon {
-    position: relative;
-} */
-
-
-/* .project-icon p {
-    position: absolute;
-    top: 44%;
-    width: 100%;
-    color: white;
-} */
 
 .text-contents {
     width: 80%;
@@ -199,7 +175,6 @@ header {
 }
 
 .message:active {
-    /* position: relative; */
     top: 7px;
     box-shadow: none;
 }
@@ -218,13 +193,10 @@ footer {
     padding-bottom: 20px;
 }
 
-
-/* Write your code below */
-
 .menu-icon {
     color: white;
     float: right;
     font-size: 25px;
     padding: 21px 0;
-    display: none;
+    display: block;
 }
