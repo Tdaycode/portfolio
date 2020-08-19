@@ -31,10 +31,16 @@ a {
     clear: left;
 }
 
+header {
+    border: 1px solid blue;
+    /* width: 100vw; */
+}
+
 .container {
     max-width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
+    width: 100vw;
 }
 
 .top-wrapper {
@@ -43,6 +49,7 @@ a {
     background-size: cover;
     color: white;
     text-align: center;
+    border: blue 1px solid;
 }
 
 .top-wrapper h1 {
@@ -64,19 +71,6 @@ a {
 
 .btn-wrapper p {
     margin: 10px 0;
-}
-
-.signup {
-    background-color: #239b76;
-}
-
-.facebook {
-    background-color: #3b5998;
-    margin-right: 10px;
-}
-
-.twitter {
-    background-color: #55acee;
 }
 
 .btn {
@@ -134,10 +128,11 @@ header {
 
 .project-wrapper {
     padding-bottom: 80px;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 25px;
+    padding-right: 25px;
     background-color: #f7f7f7;
     text-align: center;
+    border: 1px solid blue;
 }
 
 .heading {
@@ -152,24 +147,31 @@ header {
 
 .project-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
 }
 
 .project {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
+    border: 1px solid blue;
+    width: 45%;
 }
 
-.project-icon {
+
+/* .project-icon {
     position: relative;
-}
+} */
 
-.project-icon p {
+
+/* .project-icon p {
     position: absolute;
     top: 44%;
     width: 100%;
     color: white;
-}
+} */
 
 .text-contents {
     width: 80%;
@@ -197,7 +199,7 @@ header {
 }
 
 .message:active {
-    position: relative;
+    /* position: relative; */
     top: 7px;
     box-shadow: none;
 }
