@@ -39,7 +39,7 @@ a {
 
 .top-wrapper {
     padding: 180px 0 100px 0;
-    background-image: url(images/id.jpg);
+    background-image: url(images/bg.jpg);
     background-size: cover;
     color: white;
     text-align: center;
@@ -137,6 +137,15 @@ header {
     font-weight: normal;
 }
 
+form {
+    padding: 20px;
+}
+
+input {
+    width: 50%;
+    pad: 10px;
+}
+
 .project-container {
     display: flex;
     flex-direction: row;
@@ -199,4 +208,18 @@ footer {
     font-size: 25px;
     padding: 21px 0;
     display: block;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: center;
+    background-color: cornflowerblue;
+}
+
+.social-links {
+    display: inline-block;
+    text-align: center;
+    margin-left: 40%;
 }
