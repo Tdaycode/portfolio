@@ -17,20 +17,11 @@
 /* For Smartphones */
 
 @media all and (max-width: 670px) {
-    /* .header-right {
-        display: none;
-    } */
-    .menu-icon {
-        display: flex;
-    }
     .btn {
         width: 100%;
     }
-    .facebook {
-        margin-bottom: 10px;
-    }
     .top-wrapper {
-        text-align: left;
+        text-align: center;
     }
     .top-wrapper h1 {
         font-size: 24px;
