@@ -143,6 +143,7 @@ input {
 .project {
     width: 50%;
     box-shadow: teal 2px;
+    border: thick 10px;
 }
 
 img {
@@ -154,7 +155,6 @@ img {
     padding-top: 5px;
     font-size: 30px;
     text-align: center;
-    /* width: 80%; */
     display: inline-block;
     margin-top: 15px;
     font-size: 15px;
@@ -183,20 +183,15 @@ img {
     box-shadow: none;
 }
 
+footer {
+    display: block;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+}
+
 footer p {
     color: #b3aeb5;
     font-size: 12px;
-}
-
-footer {
-    padding-top: 30px;
-    padding-bottom: 20px;
-}
-
-footer {
-    display: flex;
-    flex-direction: column;
-    padding: 50px;
-    justify-content: center;
-    background-color: cornflowerblue;
 }
