@@ -71,7 +71,7 @@ body {
 }
 
 #myDiv {
-  visibility: hidden;
+  display:none;
   text-align: center;
 }
 
