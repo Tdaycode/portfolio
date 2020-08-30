@@ -5,6 +5,6 @@ function myFunction() {
 }
 
 function showPage() {
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("myDiv").style.visibilty = "visible";
+  document.getElementById("myDiv").style.display = "none";
+  document.getElementById("loader").style.visibilty = "visible";
 }
