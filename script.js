@@ -1,7 +1,6 @@
-function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-}
+let icon = document.getElementById("icon")
+let links = document.getElementById("links")
 
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-}
+icon.addEventListener("click", () => {
+
+})
