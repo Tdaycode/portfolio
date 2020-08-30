@@ -17,9 +17,9 @@
 /* For Smartphones */
 
 @media all and (max-width: 670px) {
-    .btn {
+    /* .btn {
         width: 100%;
-    }
+    } */
     .top-wrapper {
         text-align: center;
     }
@@ -36,5 +36,14 @@
     }
     footer {
         text-align: center;
+    }
+}
+
+@media all and (max-width: 803px) {
+    .header-right .icon {
+        visibility: visible;
+    }
+    .header-right a:not(:last-child) {
+        display: none;
     }
 }

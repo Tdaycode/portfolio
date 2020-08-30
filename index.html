@@ -6,120 +6,133 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ganiyu Omotayo</title>
     <!-- Font Awesome icons-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="mobile.css">
 
 </head>
 
-<body  onload="myFunction()" style="margin:0;">
-    <main style="display:none;" id="myDiv" class="animate-bottom">
-    <div id="loader"></div>
-    <header>
-        <div class="header-container">
-            <div class="header-left">
-                <h1 class="logo"> TDAYCODE </h1>
+<body>
+    <main>
 
-            </div>
-            <!--  Nav Links  -->
+        <header>
+            <div class="header-container">
+                <div class="header-left">
+                    <h1 class="logo"> TDAYCODE </h1>
 
-            <div class="header-right">
-                <a href="#home">Home</a>
-                <a href="about.html">About</a>
-                <a href="#projects">Portfolio</a>
-                <a href="https://tdaycode.hashnode.dev" class="login">Blog</a>
-                <a href="contact.html">Contact</a>
-            </div>
-        </div>
-    </header>
-    <div class="top-wrapper">
-        <div class="container">
-            <h1>HI, I'm Ganiyu Omotayo</h1>
-            <h1>A Backend developer.</h1>
-            <h3>TIIDELab Fellow</h3>
-
-
-        </div>
-    </div>
-    <!-- project done section -->
-    <div class="project-wrapper " id="projects">
-        <div class=" ">
-            <div class="heading ">
-                <h1>Few Projects done</h1>
-            </div>
-            <div class="project-container">
-                <div class="project ">
-                    <div class="project-icon ">
-                        <img src="/images/webank.JPG ">
-                        <h1 class="messag"><a href="https://tdaycode.github.io/devcareer/index.html">View Live</a></h1>
-                    </div>
-                    <h3 class="text-contents ">A responsive Static we page for storing data online...</h3>
                 </div>
-                <div class="project ">
-                    <div class="project-icon ">
-                        <img src="images/Coinbase.JPG">
-                        <h1 class="messag"><a href="https://coinbase-devpro.netlify.app/">View Live</a></h1>
-                    </div>
-                    <h3 class="text-contents ">A multi page coinbase app designed with react.</h3>
-                </div>
-                <div class="project ">
-                    <div class="project-icon ">
-                        <img src="images/tindog.JPG ">
-                        <h1 class="messag"><a href="https://tdaycode.github.io/frontend/projectTin/index.html">View Live</a></h1>
-                    </div>
-                    <h3 class="text-contents ">A responsive web page build with boostrap</h3>
-                </div>
-                <div class="project ">
-                    <div class="project-icon ">
-                        <img src="images/drum.JPG ">
-                        <h1 class="messag"><a href="https://tdaycode.github.io/frontend/projectDrum/index.html">View Live</a></h1>
-                    </div>
-                    <h3 class="text-contents ">A drum kit app implemented with javaScript.</h3>
+                <!--  Nav Links  -->
+
+                <div class="header-right" id="links">
+                    <a href="#home">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="#projects">Portfolio</a>
+                    <a href="https://tdaycode.hashnode.dev" class="login">Blog</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="javascript:void(0);" class="icon" id="icon">
+                        <i class="fa fa-bars"></i>
+                    </a>
+
                 </div>
 
             </div>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+                <a href="#">Contact</a>
+            </div>
+        </header>
+        <div class="top-wrapper">
+            <div class="container">
+                <h1>HI, I'm Ganiyu Omotayo</h1>
+                <h1>A Backend developer.</h1>
+                <h3>TIIDELab Fellow</h3>
+
+
+            </div>
         </div>
-    </div>
+        <!-- project done section -->
+        <div class="project-wrapper " id="projects">
+            <div class=" ">
+                <div class="heading ">
+                    <h1>Few Projects done</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project ">
+                        <div class="project-icon ">
+                            <img src="/images/webank.JPG ">
+                            <h1 class="messag"><a href="https://tdaycode.github.io/devcareer/index.html">View Live</a></h1>
+                        </div>
+                        <h3 class="text-contents ">A responsive Static we page for storing data online...</h3>
+                    </div>
+                    <div class="project ">
+                        <div class="project-icon ">
+                            <img src="images/Coinbase.JPG">
+                            <h1 class="messag"><a href="https://coinbase-devpro.netlify.app/">View Live</a></h1>
+                        </div>
+                        <h3 class="text-contents ">A multi page coinbase app designed with react.</h3>
+                    </div>
+                    <div class="project ">
+                        <div class="project-icon ">
+                            <img src="images/tindog.JPG ">
+                            <h1 class="messag"><a href="https://tdaycode.github.io/frontend/projectTin/index.html">View Live</a></h1>
+                        </div>
+                        <h3 class="text-contents ">A responsive web page build with boostrap</h3>
+                    </div>
+                    <div class="project ">
+                        <div class="project-icon ">
+                            <img src="images/drum.JPG ">
+                            <h1 class="messag"><a href="https://tdaycode.github.io/frontend/projectDrum/index.html">View Live</a></h1>
+                        </div>
+                        <h3 class="text-contents ">A drum kit app implemented with javaScript.</h3>
+                    </div>
 
-    <!-- News Letter Section -->
-    <div class="message-wrapper ">
-        <div class=" ">
-            <div class="heading ">
-                <h2>Sign up to my news letter</h2>
-                <form name="contact" action="POST" data-netlify="true">
+                </div>
+            </div>
+        </div>
 
-                    <p> <label for="mail">Your mail</label><input height="20px" type="email" name="email">
-                    </p>
-                    <br>
-                    <p> <label for="name">Your name</label><input height="20px" type="text" name="name">
-                    </p>
-                    <br>
-                    <p> <button class="btn message" type="submit">SignUp</button></p>
-                </form>
+        <!-- News Letter Section -->
+        <div class="message-wrapper ">
+            <div class=" ">
+                <div class="heading ">
+                    <h2>Sign up to my news letter</h2>
+                    <form name="contact" action="POST" data-netlify="true">
+
+                        <p> <label for="mail">Your mail</label><input height="20px" type="email" name="email">
+                        </p>
+                        <br>
+                        <p> <label for="name">Your name</label><input height="20px" type="text" name="name">
+                        </p>
+                        <br>
+                        <p> <button class="btn message" type="submit">SignUp</button></p>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <footer>
+            <div class="social-icons ">
+
+                <!-- Footer Social Icons-->
+                <h4 class="text-uppercase mb-4 "> Links</h4>
+                <a class=" " href="#! "><i class="fab fa-fw fa-facebook-f "></i></a>
+                <a class="" href="https://www.twitter.com/tdaycode "><i class="fab fa-fw fa-twitter "></i></a>
+                <a class=" " href="http://www.linkedin.com/in/ganiyu-omotayo-46a7b91b4 "><i class="fab fa-fw fa-linkedin-in "></i></a>
+                <a class=" " href="https://www.github.com/tdaycode "><i class="fab fa-fw fa-github "></i></a>
+
             </div>
 
-        </div>
-    </div>
-    <footer>
-        <div class="social-icons ">
-
-            <!-- Footer Social Icons-->
-            <h4 class="text-uppercase mb-4 "> Links</h4>
-            <a class=" " href="#! "><i class="fab fa-fw fa-facebook-f "></i></a>
-            <a class="" href="https://www.twitter.com/tdaycode "><i class="fab fa-fw fa-twitter "></i></a>
-            <a class=" " href="http://www.linkedin.com/in/ganiyu-omotayo-46a7b91b4 "><i class="fab fa-fw fa-linkedin-in "></i></a>
-            <a class=" " href="https://www.github.com/tdaycode "><i class="fab fa-fw fa-github "></i></a>
-
-        </div>
 
 
+            <div class="container "><small>Copyright © <a href="https://www.github.com/tdaycode ">Ganiyu Omotayo</a> 2020</small></div>
 
-        <div class="container "><small>Copyright © <a href="https://www.github.com/tdaycode ">Ganiyu Omotayo</a> 2020</small></div>
-
-    </footer>
+        </footer>
     </main>
-    <script src="script.js></script>
+    <script src="script.js"></script>
 </body>
-
 
 </html>
