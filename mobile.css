@@ -39,13 +39,12 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 803px) {
     .topnav {
         display: block;
     }
     .topnav a {
         display: none;
-        visibility: visible;
     }
     .topnav a.icon {
         float: right;
@@ -53,7 +52,7 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 803px) {
     .topnav.responsive {
         position: relative;
     }
@@ -70,6 +69,15 @@
 }
 
 @media all and (max-width: 803px) {
+    /* .topnav {
+        display: block;
+    } */
+    #topnav .icon {
+        display: block;
+    }
+    .topnav a:not(:last-child) {
+        display: none;
+    }
     .header-right .icon {
         visibility: visible;
     }
